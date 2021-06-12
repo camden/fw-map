@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@notionhq/client": "0.1.9",
     "ramda": "0.27.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
