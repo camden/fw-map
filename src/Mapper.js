@@ -42,8 +42,8 @@ const getAreas = () => {
         ),
         fillColor: "#fff5",
         strokeColor: "#0004",
-        lineWidth: 10,
-        preFillColor: "#fff1"
+        lineWidth: 10
+        // preFillColor: "#fff1"
       };
       hexes.push(hex);
     }
@@ -54,7 +54,7 @@ const getAreas = () => {
 
 const clickHandler = (area, index, event) => {
   console.log(area);
-  getNotionPage(area.name);
+  // getNotionPage(area.name);
 };
 
 const Mapper = (props) => {
